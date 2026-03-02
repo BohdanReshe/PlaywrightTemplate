@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Tests (PR runsettings)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "dotnet",
+      "args": [
+        "test",
+        "src/Tests/Tests.csproj",
+        "--settings",
+        "runsettings/pr.runsettings"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}

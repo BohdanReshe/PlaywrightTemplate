@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "ms-dotnettools.csharp",
+    "reqnroll.reqnroll-vscode",
+    "ms-vscode.test-adapter-converter"
+  ]
+}

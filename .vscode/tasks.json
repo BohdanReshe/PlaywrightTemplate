@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "test:pr",
+      "type": "shell",
+      "command": "dotnet test src/Tests/Tests.csproj --settings runsettings/pr.runsettings",
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "test:ci",
+      "type": "shell",
+      "command": "dotnet test src/Tests/Tests.csproj --settings runsettings/ci.runsettings",
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}

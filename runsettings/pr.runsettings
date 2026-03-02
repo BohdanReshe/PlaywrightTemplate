@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <RunConfiguration>
+    <MaxCpuCount>1</MaxCpuCount>
+    <ResultsDirectory>TestResults</ResultsDirectory>
+  </RunConfiguration>
+
+  <TestRunParameters>
+    <Parameter name="ENV" value="pr" />
+    <Parameter name="BROWSER" value="chromium" />
+    <Parameter name="HEADLESS" value="true" />
+    <Parameter name="SLOWMO_MS" value="0" />
+    <Parameter name="BASEURL_SAUCE" value="https://www.saucedemo.com" />
+    <Parameter name="BASEURL_HEROKU" value="https://the-internet.herokuapp.com" />
+    <Parameter name="TRACE_MODE" value="on-failure" />
+    <Parameter name="VIDEO_MODE" value="off" />
+    <Parameter name="SCREENSHOT_MODE" value="only-on-failure" />
+    <Parameter name="RETRIES" value="2" />
+    <Parameter name="TEST_TIMEOUT_MS" value="30000" />
+    <Parameter name="PR_REF" value="" />
+  </TestRunParameters>
+</RunSettings>
