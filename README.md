@@ -191,3 +191,4 @@ This repository demonstrates:
 ## Author
 
 Bohdan Reshetilov
+QA Automation Engineer / SDET
